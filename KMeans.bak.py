@@ -1,8 +1,7 @@
-from collections import namedtuple
-from copy import copy
 from math import pi, sin, cos
+from collections import namedtuple
 from random import random, choice
-import kmc2
+from copy import copy
 
 try:
     import psyco
@@ -119,7 +118,7 @@ def lloyd(points, nclusters):
 
 
 def print_eps(points, cluster_centers, W=400, H=400):
-    Color = namedtuple("Color", "r g b")
+    Color = namedtuple("Color", "r g b");
 
     colors = []
     for i in xrange(len(cluster_centers)):
@@ -131,14 +130,10 @@ def print_eps(points, cluster_centers, W=400, H=400):
     min_x = min_y = FLOAT_MAX
 
     for p in points:
-        if max_x < p.x:
-            max_x = p.x
-        if min_x > p.x:
-            min_x = p.x
-        if max_y < p.y:
-            max_y = p.y
-        if min_y > p.y:
-            min_y = p.y
+        if max_x < p.x: max_x = p.x
+        if min_x > p.x: min_x = p.x
+        if max_y < p.y: max_y = p.y
+        if min_y > p.y: min_y = p.y
 
     scale = min(W / (max_x - min_x),
                 H / (max_y - min_y))
@@ -178,5 +173,4 @@ def main():
     print_eps(points, cluster_centers)
 
 
-if __name__ == "__main__":
-    main()
+main()
