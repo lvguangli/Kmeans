@@ -65,7 +65,7 @@ def kmeans_with_center(cluster_points, cluster_centers):
     :param cluster_centers:  初始中心点
     :return: cluster_centers 中心点
     """
-    # print '划定聚类中心'
+    print '划定聚类中心'
     for cluster_point in cluster_points:
         cluster_point.group = nearest_cluster_center(cluster_point, cluster_centers)[0]
     # 迭代阈值
@@ -96,7 +96,8 @@ def kmeans_with_center(cluster_points, cluster_centers):
                 changed += 1
                 np_point.group = min_i
         # stop when 99.9% of points are good
-        print changed
+        print 'changed=' + str(changed)
+        print 'lenpts10=' + str(lenpts10)
         print '一次迭代结束'
         if changed <= lenpts10:
             break
