@@ -43,6 +43,24 @@ def nearest_cluster_center(point, cluster_centers):
     return min_index, min_dist
 
 
+def nearest_np_center(np_point, np_centers):
+    """Distance and index of the closest cluster center"""
+    def sqr_distance(a, b):
+        dist = 0.0
+        length = len(a)
+        for index in xrange(length):
+            dist += (a[index] - b[index]) ** 2
+        return dist
+
+    min_dist = FLOAT_MAX
+    for i, cc in enumerate(np_centers):
+        d = sqr_distance(cc, np_point)
+        if min_dist > d:
+            min_dist = d
+
+    return min_dist
+
+
 def kmeans_with_center(cluster_points, cluster_centers):
     """
     根据参数的 点集 和 中心点 进行Kmeans聚类
@@ -89,29 +107,29 @@ def kmeans_with_center(cluster_points, cluster_centers):
     return cluster_centers
 
 
-def kpp(cluster_points, k):
+def kpp(np_points, k):
     """
     kpp 寻找中心点seed
-    :param cluster_points:
+    :param np_points:
     :param k:
     :return:
     """
-    cluster_centers = [list() for _ in xrange(k)]
-    cluster_centers[0] = copy(choice(cluster_points))
-    d = [0.0 for _ in xrange(len(cluster_points))]
-    for i in xrange(1, len(cluster_centers)):
+    np_centers = [list() for _ in xrange(k)]
+    np_centers[0] = copy(choice(np_points))
+    d = [0.0 for _ in xrange(len(np_points))]
+    for i in xrange(1, len(np_centers)):
         result = 0
-        for j, cluster_point in enumerate(cluster_points):
-            d[j] = nearest_cluster_center(cluster_point, cluster_centers[:i])[1]
+        for j, cluster_point in enumerate(np_points):
+            d[j] = nearest_np_center(cluster_point, np_centers[:i])
             result += d[j]
         result *= random()
         for j, di in enumerate(d):
             result -= di
             if result > 0:
                 continue
-            cluster_centers[i] = copy(cluster_points[j])
+            np_centers[i] = copy(np_points[j])
             break
-    return cluster_centers
+    return np_centers
 
 
 def point2center(cluster_points, cluster_centers):

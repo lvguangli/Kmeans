@@ -32,6 +32,7 @@ def afkmc2(array, k):
     :param k: 中心点个数
     :return: 无返回值
     """
+    print 'afkmc2'
     np_points = np.array(array)
     centers = kmc2.kmc2(np_points, k, afkmc2=True)
     length = len(centers)
@@ -48,6 +49,7 @@ def kmc2_(array, k):
     :param k: 中心点个数
     :return: 无返回值
     """
+    print 'kmc2'
     np_points = np.array(array)
     centers = kmc2.kmc2(np_points, k, afkmc2=False)
     length = len(centers)
@@ -64,6 +66,7 @@ def kpp(array, k):
     :param k: 中心点个数
     :return: 无返回值
     """
+    print 'kpp'
     np_points = np.array(array)
     np_centers = Kmeans.kpp(np_points, k)
     start_kmeans(np_points, np_centers)
@@ -89,8 +92,8 @@ def start_kmeans(np_points, np_centers):
 def main(path="poker-hand-training-true.txt", split_char=','):
     k = 7  # # clusters
     array = init_array(path, split_char)
-    afkmc2(array, k)
-    kmc2_(array, k)
+    # afkmc2(array, k)
+    # kmc2_(array, k)
     kpp(array, k)
 
 
