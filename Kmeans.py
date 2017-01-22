@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from copy import copy
 from random import random, choice
+import numpy as np
 try:
     import psyco
 
@@ -9,7 +10,7 @@ except ImportError:
     pass
 
 FLOAT_MAX = 1e100
-ITERATION_LOG = False
+ITERATION_LOG = True
 
 
 class Point:
@@ -25,35 +26,23 @@ class Point:
         self.point = list()
 
 
-def nearest_cluster_center(point, cluster_centers):
+def nearest_cluster_center(cluster_point, cluster_centers):
     """Distance and index of the closest cluster center"""
-    def sqr_distance(a, b):
-        dist = 0.0
-        length = len(a.point)
-        for index in xrange(length):
-            dist += (a.point[index] - b.point[index]) ** 2
-        return dist
-    min_index = point.group
+    min_index = cluster_point.group
     min_dist = FLOAT_MAX
-    for i, cc in enumerate(cluster_centers):
-        d = sqr_distance(cc, point)
+    for i, cluster_center in enumerate(cluster_centers):
+        d = np.sum((np.square(cluster_center.point - cluster_point.point)))
         if min_dist > d:
             min_dist = d
             min_index = i
     return min_index, min_dist
 
 
-def nearest_np_center(np_point, np_centers):
+def nearest_np_center_dist(np_point, np_centers):
     """Distance and index of the closest cluster center"""
-    def sqr_distance(a, b):
-        dist = 0.0
-        length = len(a)
-        for index in xrange(length):
-            dist += (a[index] - b[index]) ** 2
-        return dist
     min_dist = FLOAT_MAX
-    for i, cc in enumerate(np_centers):
-        d = sqr_distance(cc, np_point)
+    for i, np_center in enumerate(np_centers):
+        d = np.sum((np.square(np_center - np_point)))
         if min_dist > d:
             min_dist = d
     return min_dist
@@ -113,9 +102,9 @@ def kmeans_with_center(cluster_points, cluster_centers):
 def kpp(np_points, k):
     """
     kpp 寻找中心点seed
-    :param np_points:
-    :param k:
-    :return:
+    :param np_points: 点集
+    :param k: 中心数
+    :return: 聚类中心 seed
     """
     np_centers = [list() for _ in xrange(k)]
     np_centers[0] = copy(choice(np_points))
@@ -123,7 +112,7 @@ def kpp(np_points, k):
     for i in xrange(1, k):
         result = 0
         for j, cluster_point in enumerate(np_points):
-            d[j] = nearest_np_center(cluster_point, np_centers[:i])
+            d[j] = nearest_np_center_dist(cluster_point, np_centers[:i])
             result += d[j]
         result *= random()
         for j, di in enumerate(d):
