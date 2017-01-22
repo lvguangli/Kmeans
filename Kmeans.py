@@ -39,7 +39,6 @@ def nearest_cluster_center(point, cluster_centers):
         if min_dist > d:
             min_dist = d
             min_index = i
-
     return min_index, min_dist
 
 
@@ -51,13 +50,11 @@ def nearest_np_center(np_point, np_centers):
         for index in xrange(length):
             dist += (a[index] - b[index]) ** 2
         return dist
-
     min_dist = FLOAT_MAX
     for i, cc in enumerate(np_centers):
         d = sqr_distance(cc, np_point)
         if min_dist > d:
             min_dist = d
-
     return min_dist
 
 
@@ -68,16 +65,17 @@ def kmeans_with_center(cluster_points, cluster_centers):
     :param cluster_centers:  初始中心点
     :return: cluster_centers 中心点
     """
-    print '划定聚类中心'
-    for np_point in cluster_points:
-        np_point.group = nearest_cluster_center(np_point, cluster_centers)[0]
+    # print '划定聚类中心'
+    for cluster_point in cluster_points:
+        cluster_point.group = nearest_cluster_center(cluster_point, cluster_centers)[0]
     # 迭代阈值
     lenpts10 = len(cluster_points) >> 10
+    length = len(cluster_centers[0].point)
     print '开始迭代'
     while True:
+        print '一次迭代开始'
         # group element for centroids are used as counters
         # 初始化中心点
-        length = len(cluster_centers[0].point)
         for cc in cluster_centers:
             cc.point = [0.0 for _ in xrange(length)]
             cc.group = 0
@@ -98,12 +96,13 @@ def kmeans_with_center(cluster_points, cluster_centers):
                 changed += 1
                 np_point.group = min_i
         # stop when 99.9% of points are good
+        print changed
+        print '一次迭代结束'
         if changed <= lenpts10:
             break
     # TODO 重新划分一下组号，有必要么？是不是要更新每个点的组号呢？
     for i, cc in enumerate(cluster_centers):
         cc.group = i
-
     return cluster_centers
 
 
@@ -131,13 +130,3 @@ def kpp(np_points, k):
             break
     return np_centers
 
-
-def point2center(cluster_points, cluster_centers):
-    """
-    将点集指向最近的中心点
-    :param cluster_points:  点集
-    :param cluster_centers: 中心点
-    :return: 不需要返回值
-    """
-    for cluster_point in cluster_points:
-        cluster_point.group = nearest_cluster_center(cluster_point, cluster_centers)[0]

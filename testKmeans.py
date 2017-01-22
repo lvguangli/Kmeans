@@ -82,7 +82,6 @@ def start_kmeans(np_points, np_centers):
     cluster_centers = [Point() for _ in xrange(len(np_centers))]
     for index in xrange(len(np_centers)):
         cluster_centers[index].point = np_centers[index]
-    Kmeans.point2center(cluster_points, cluster_centers)
     print '开始 Kmeans'
     cluster_centers = Kmeans.kmeans_with_center(cluster_points, cluster_centers)
     for center in cluster_centers:
@@ -92,8 +91,8 @@ def start_kmeans(np_points, np_centers):
 def main(path="poker-hand-training-true.txt", split_char=','):
     k = 7  # # clusters
     array = init_array(path, split_char)
-    # afkmc2(array, k)
-    # kmc2_(array, k)
+    afkmc2(array, k)
+    kmc2_(array, k)
     kpp(array, k)
 
 
