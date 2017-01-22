@@ -9,6 +9,7 @@ except ImportError:
     pass
 
 FLOAT_MAX = 1e100
+ITERATION_LOG = False
 
 
 class Point:
@@ -73,7 +74,8 @@ def kmeans_with_center(cluster_points, cluster_centers):
     length = len(cluster_centers[0].point)
     print '开始迭代'
     while True:
-        print '一次迭代开始'
+        if ITERATION_LOG:
+            print '一次迭代开始'
         # group element for centroids are used as counters
         # 初始化中心点
         for cc in cluster_centers:
@@ -96,9 +98,10 @@ def kmeans_with_center(cluster_points, cluster_centers):
                 changed += 1
                 np_point.group = min_i
         # stop when 99.9% of points are good
-        print 'changed=' + str(changed)
-        print 'lenpts10=' + str(lenpts10)
-        print '一次迭代结束'
+        if ITERATION_LOG:
+            print 'changed=' + str(changed)
+            print 'lenpts10=' + str(lenpts10)
+            print '一次迭代结束'
         if changed <= lenpts10:
             break
     # TODO 重新划分一下组号，有必要么？是不是要更新每个点的组号呢？
@@ -117,7 +120,7 @@ def kpp(np_points, k):
     np_centers = [list() for _ in xrange(k)]
     np_centers[0] = copy(choice(np_points))
     d = [0.0 for _ in xrange(len(np_points))]
-    for i in xrange(1, len(np_centers)):
+    for i in xrange(1, k):
         result = 0
         for j, cluster_point in enumerate(np_points):
             d[j] = nearest_np_center(cluster_point, np_centers[:i])
