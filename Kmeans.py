@@ -48,11 +48,12 @@ def nearest_np_center_dist(np_point, np_centers):
     return min_dist
 
 
-def kmeans_with_center(cluster_points, cluster_centers):
+def kmeans_with_center(cluster_points, cluster_centers, times):
     """
     根据参数的 点集 和 中心点 进行Kmeans聚类
     :param cluster_points:  点集
     :param cluster_centers:  初始中心点
+    :param times:  迭代的最大次数  0 没有限制
     :return: cluster_centers 中心点
     """
     print '划定聚类中心'
@@ -62,9 +63,13 @@ def kmeans_with_center(cluster_points, cluster_centers):
     lenpts10 = len(cluster_points) >> 10
     length = len(cluster_centers[0].point)
     print '开始迭代'
+    count = 0
     while True:
+        if times != 0 and count >= times:
+            break
+        count += 1
         if ITERATION_LOG:
-            print '一次迭代开始'
+            print '一次迭代开始' + ' count=' + str(count)
         # group element for centroids are used as counters
         # 初始化中心点
         for cc in cluster_centers:
@@ -93,7 +98,7 @@ def kmeans_with_center(cluster_points, cluster_centers):
             print '一次迭代结束'
         if changed <= lenpts10:
             break
-    # TODO 重新划分一下组号，有必要么？是不是要更新每个点的组号呢？
+    # 重新划分一下组号
     for i, cc in enumerate(cluster_centers):
         cc.group = i
     return cluster_centers
