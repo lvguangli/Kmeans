@@ -207,7 +207,7 @@ def main(path="poker-hand-training-true.txt", split_char=','):
     print 'error_kpp                = ' + str(error_kpp) + '    during_kpp = ' + str(during_kpp)
     print 'error_afkmc2_with_weight = ' + str(error_afkmc2_with_weight) + '    during_afkmc2_with_weight = '\
           + str(during_afkmc2_with_weight)
-    # os.system("open /Applications/iTunes.app /Users/sahara/PycharmProjects/Kmeans/task_end.wav")
+    os.system("open /Applications/iTunes.app /Users/sahara/PycharmProjects/Kmeans/task_end.wav")
 
 
 if __name__ == "__main__":
