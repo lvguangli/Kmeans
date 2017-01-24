@@ -6,6 +6,7 @@ import Kmeans
 from copy import copy
 import time
 from sklearn.metrics.pairwise import euclidean_distances
+import os
 
 
 def init_array(path, split_char):
@@ -27,7 +28,7 @@ def init_array(path, split_char):
     return array
 
 
-def afkmc2_with_weight(np_points, k, times, iterator=40):
+def afkmc2_with_weight(np_points, k, times, iterator=5):
     """
     有权重的 afkmc2
     :param np_points: 点集
@@ -38,11 +39,9 @@ def afkmc2_with_weight(np_points, k, times, iterator=40):
     """
     print 'afkmc2_with_weight'
     cluster_centers = kpp(np_points, k, iterator)
+    # cluster_centers = afkmc2(np_points, k, iterator)
     weights = np.ones(np_points.shape[0], dtype=np.float64)
     length = np_points.shape[0]
-    print '''
-
-    '''
     np_centers = [list() for _ in xrange(k)]
     for index in xrange(k):
         np_centers[index] = copy(cluster_centers[index].point)
@@ -54,25 +53,14 @@ def afkmc2_with_weight(np_points, k, times, iterator=40):
                 min_dist = d
     print 'min_dist=' + str(min_dist)
     min_dist /= 3
-    maxw = np_points.shape[0] / (k * 100)
-    for j in xrange(k):
+    maxw = np_points.shape[0] / k
+    for i in xrange(length):
         # count = 0
-        for i in xrange(length):
+        for j in xrange(k):
             dist = np.sum((np.square(cluster_centers[j].point - np_points[i])))
-            if dist < min_dist:  # and count < 40:  # dist 应该取 中心点之间的最小距离的一半 寓意即每个中心点都辐射一个高维的球
-                # count += 1
+            if dist < min_dist:  # dist 应该取 中心点之间的最小距离的一半 寓意即每个中心点都辐射一个高维的球
                 weights[i] = maxw
-                # print '可能的中心点'
-                # print dist
-                # print cluster_centers[j].point
-                # print np_points[i]
-                # if dist < 1:
-                #     dist = 1
-                # if weights[i] < maxw / dist:
-                #         weights[i] = maxw / dist
-    # for weight in weights:
-    #     if weight > 1:
-    #         print weight
+                break
     kmc2_np_centers = kmc2.kmc2(np_points, k, afkmc2=True, weights=weights)
     np_centers = [list() for _ in xrange(k)]
     for index in xrange(k):
@@ -130,16 +118,17 @@ def kpp(np_points, k, times):
     return cluster_centers
 
 
-def start_kmeans(np_points, np_centers, k, times):
+def start_kmeans(np_points, np_centers, k, times, iteration_log=False):
     """
     KMeans
     :param np_points:  点集
     :param np_centers: seed
     :param k: 中心点个数
     :param times:       最大迭代次数
+    :param iteration_log:  是否打印每次的日志
     :return: 中心点
     """
-    print '中心点 seeding'
+    print 'seed array'
     print np_centers
     cluster_points = [Point() for _ in xrange(len(np_points))]
     print '将numpy 数组 转化为 多维空间 point'
@@ -151,7 +140,7 @@ def start_kmeans(np_points, np_centers, k, times):
         cluster_centers[index].point = np_centers[index]
         cluster_centers[index].group = 0
     print '开始 Kmeans'
-    cluster_centers = Kmeans.kmeans_with_center(cluster_points, cluster_centers, times)
+    cluster_centers = Kmeans.kmeans_with_center(cluster_points, cluster_centers, times,iteration_log)
     for center in cluster_centers:
         print center.point
     return cluster_centers
@@ -177,7 +166,8 @@ def point2numpy(cluster_centers):
 
 def main(path="poker-hand-training-true.txt", split_char=','):
     k = 7  # # clusters
-    times = 0
+    # times 取值 -1 表示不进行KMeans， 0 表示不限制KMeans次数，正整数表示KMeans最大迭代次数
+    times = 100
     array = init_array(path, split_char)
     np_points = np.array(array)
     # afkmc2
@@ -188,7 +178,7 @@ def main(path="poker-hand-training-true.txt", split_char=','):
     error_afkmc2 = qe(np_points=np_points, np_centers=np_centers_afkmc2)
     during_afkmc2 = end_afkmc2 - start_afkmc2
 
-    #  kmc2
+    # #  kmc2
     # start_kmc2 = time.time()
     # cluster_centers_kmc2 = kmc2_(np_points, k, times)
     # end_kmc2 = time.time()
@@ -197,26 +187,27 @@ def main(path="poker-hand-training-true.txt", split_char=','):
     # during_kmc2 = end_kmc2 - start_kmc2
 
     #  kpp
-    # start_kpp = time.time()
-    # cluster_centers_kpp = kpp(np_points, k, times)
-    # np_centers_kpp = point2numpy(cluster_centers_kpp)
-    # error_kpp = qe(np_points=np_points, np_centers=np_centers_kpp)
-    # end_kpp = time.time()
-    # during_kpp = end_kpp - start_kpp
+    start_kpp = time.time()
+    cluster_centers_kpp = kpp(np_points, k, times)
+    end_kpp = time.time()
+    np_centers_kpp = point2numpy(cluster_centers_kpp)
+    error_kpp = qe(np_points=np_points, np_centers=np_centers_kpp)
+    during_kpp = end_kpp - start_kpp
 
     # afkmc2 with weight
-    # start_afkmc2_with_weight = time.time()
-    # cluster_centers_afkmc2_with_weight = afkmc2_with_weight(np_points, k, time)
-    # end_afkmc2_with_weight = time.time()
-    # np_centers_afkmc2_with_weight = point2numpy(cluster_centers_afkmc2_with_weight)
-    # error_afkmc2_with_weight = qe(np_points=np_points, np_centers=np_centers_afkmc2_with_weight)
-    # during_afkmc2_with_weight = end_afkmc2_with_weight - start_afkmc2_with_weight
+    start_afkmc2_with_weight = time.time()
+    cluster_centers_afkmc2_with_weight = afkmc2_with_weight(np_points, k, times)
+    end_afkmc2_with_weight = time.time()
+    np_centers_afkmc2_with_weight = point2numpy(cluster_centers_afkmc2_with_weight)
+    error_afkmc2_with_weight = qe(np_points=np_points, np_centers=np_centers_afkmc2_with_weight)
+    during_afkmc2_with_weight = end_afkmc2_with_weight - start_afkmc2_with_weight
 
     print 'error_afkmc2             = ' + str(error_afkmc2) + '    during_afkmc2 = ' + str(during_afkmc2)
     # print 'error_kmc2               = ' + str(error_kmc2) + '    during_afkmc2 = ' + str(during_kmc2)
-    # print 'error_kpp                = ' + str(error_kpp) + '    during_kpp = ' + str(during_kpp)
-    # print 'error_afkmc2_with_weight = ' + str(error_afkmc2_with_weight) + '    during_afkmc2_with_weight = '\
-    #       + str(during_afkmc2_with_weight)
+    print 'error_kpp                = ' + str(error_kpp) + '    during_kpp = ' + str(during_kpp)
+    print 'error_afkmc2_with_weight = ' + str(error_afkmc2_with_weight) + '    during_afkmc2_with_weight = '\
+          + str(during_afkmc2_with_weight)
+    # os.system("open /Applications/iTunes.app /Users/sahara/PycharmProjects/Kmeans/task_end.wav")
 
 
 if __name__ == "__main__":

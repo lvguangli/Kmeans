@@ -5,10 +5,24 @@
 # print end - start
 
 
-import numpy as np
-from sklearn.metrics.pairwise import euclidean_distances
-X = np.array([[2, 2, 3], [2, 1, 3], [4, 1, 3]])
-print euclidean_distances(X, squared=False)
+# import numpy as np
+# from sklearn.metrics.pairwise import euclidean_distances
+# X = np.array([[2, 2, 3], [2, 1, 3], [4, 1, 3]])
+# print euclidean_distances(X, squared=True)
+# import sys
+# import time
+# print "\rHello, Gay! ",
+# sys.stdout.flush()
+# time.sleep(2)
+# print '\rb',
+# # sys.stdout.flush()
+# # time.sleep(2)
+# # print "\rHello, Gay! ",
+# # sys.stdout.flush()
+# # time.sleep(2)
+# # print '\rb',
+# time.sleep(2)
+# print '\ntest'
 # w = np.ones(X.shape[0], dtype=np.float64)
 #
 # print X
@@ -28,3 +42,7 @@ print euclidean_distances(X, squared=False)
 #             if dist < 100:
 #                 weights[i] = maxw
 #     '''
+
+
+import os
+os.system("open /Applications/iTunes.app /Users/sahara/PycharmProjects/Kmeans/task_end.wav")

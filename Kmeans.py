@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 from copy import copy
+import sys
 from random import random, choice
 import numpy as np
+
 try:
     import psyco
 
@@ -10,7 +12,6 @@ except ImportError:
     pass
 
 FLOAT_MAX = 1e100
-ITERATION_LOG = True
 
 
 class Point:
@@ -48,12 +49,13 @@ def nearest_np_center_dist(np_point, np_centers):
     return min_dist
 
 
-def kmeans_with_center(cluster_points, cluster_centers, times):
+def kmeans_with_center(cluster_points, cluster_centers, times, iteration_log):
     """
     根据参数的 点集 和 中心点 进行Kmeans聚类
     :param cluster_points:  点集
     :param cluster_centers:  初始中心点
     :param times:  迭代的最大次数  0 没有限制
+    :param iteration_log:  是否打印每次的日志
     :return: cluster_centers 中心点
     """
     print '划定聚类中心'
@@ -65,11 +67,14 @@ def kmeans_with_center(cluster_points, cluster_centers, times):
     print '开始迭代'
     count = 0
     while True:
+        if not iteration_log:
+            print '\r迭代中' + ('.' * ((count % 4) + 1)),
+            sys.stdout.flush()
+        if times == -1:
+            break
         if times != 0 and count >= times:
             break
         count += 1
-        if ITERATION_LOG:
-            print '一次迭代开始' + ' count=' + str(count)
         # group element for centroids are used as counters
         # 初始化中心点
         for cc in cluster_centers:
@@ -92,12 +97,14 @@ def kmeans_with_center(cluster_points, cluster_centers, times):
                 changed += 1
                 np_point.group = min_i
         # stop when 99.9% of points are good
-        if ITERATION_LOG:
-            print 'changed=' + str(changed)
+        if iteration_log:
+            print 'changed =' + str(changed)
             print 'lenpts10=' + str(lenpts10)
-            print '一次迭代结束'
-        if changed <= lenpts10:
+            print '一次迭代结束' + str(count)
+        if times <= 0 and changed <= lenpts10:
             break
+    print '\n迭代结束'
+    print '迭代次数 count=' + str(count)
     # 重新划分一下组号
     for i, cc in enumerate(cluster_centers):
         cc.group = i
@@ -127,4 +134,3 @@ def kpp(np_points, k):
             np_centers[i] = copy(np_points[j])
             break
     return np_centers
-
