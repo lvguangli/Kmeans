@@ -164,8 +164,8 @@ def point2numpy(cluster_centers):
     return np.array(result)
 
 
-def main(path="poker-hand-training-true.txt", split_char=','):
-    k = 7  # # clusters
+def main(path="data/poker-hand-training-true.txt", split_char=','):
+    k = 10  # # clusters
     # times 取值 -1 表示不进行KMeans， 0 表示不限制KMeans次数，正整数表示KMeans最大迭代次数
     times = 100
     array = init_array(path, split_char)
@@ -211,5 +211,6 @@ def main(path="poker-hand-training-true.txt", split_char=','):
 
 
 if __name__ == "__main__":
+    # main(path='data/poker-hand-testing.data.txt')
     main()
 

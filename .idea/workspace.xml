@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4eba3c8-72ce-4e94-a09a-8f023d07e48d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241257.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241310.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241335.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241349.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testKmeans.py" afterPath="$PROJECT_DIR$/testKmeans.py" />
-    </list>
+    <list default="true" id="c4eba3c8-72ce-4e94-a09a-8f023d07e48d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,84 +15,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testKmeans.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testKmeans.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testKmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+            <state relative-caret-position="433">
+              <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
               <folding>
-                <element signature="e#24#42#0" expanded="true" />
                 <element signature="e#235#625#0" expanded="false" />
                 <element signature="e#2153#2584#0" expanded="false" />
                 <element signature="e#2623#3053#0" expanded="false" />
                 <element signature="e#3090#3384#0" expanded="false" />
+                <element signature="e#3463#4337#0" expanded="false" />
                 <element signature="e#4375#4672#0" expanded="false" />
                 <element signature="e#4713#4843#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="times_100_weight_3_kpp_201701241257.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241257.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="times_100_weight_3_kpp_201701241310.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241310.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="times_100_weight_3_kpp_201701241335.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241335.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="times_100_weight_3_kpp_201701241349.log" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241349.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="73" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_code.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="92" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kmeans.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kmeans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="67" column="13" lean-forward="false" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-              <folding>
-                <element signature="e#24#45#0" expanded="true" />
-                <element signature="e#218#421#0" expanded="false" />
-                <element signature="e#488#843#0" expanded="false" />
-                <element signature="e#3306#3962#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -126,13 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/KMC2KMeans.py" />
-        <option value="$PROJECT_DIR$/KmeansPP.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/log/kmeans_test_201701222156.log" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231347.log" />
-        <option value="$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231430.log" />
         <option value="$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231440.log" />
         <option value="$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231445.log" />
         <option value="$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231457.log" />
@@ -155,11 +76,35 @@
         <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241139.log" />
         <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241154.log" />
         <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241207.log" />
-        <option value="$PROJECT_DIR$/testKmeans.py" />
         <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241257.log" />
         <option value="$PROJECT_DIR$/log/times_100_weight_2_kpp_201701241310.log" />
         <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241335.log" />
         <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241349.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241405.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241418.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241432.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241445.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241457.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241510.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241523.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241615.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_kpp_201701241630.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241701.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241717.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241748.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241804.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241916.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241929.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_kpp_201701242000.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701242014.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701242027.log" />
+        <option value="$PROJECT_DIR$/log/times_100_weight_3_kpp_201701242055.log" />
+        <option value="$PROJECT_DIR$/log/limit_999_weight_3_kpp_201701242128.log" />
+        <option value="$PROJECT_DIR$/log/limit_999_weight_kpp_201701242149.log" />
+        <option value="$PROJECT_DIR$/log/limit_999_weight_3_kpp_201701242159.log" />
+        <option value="$PROJECT_DIR$/log/limit_999_weight_3_kpp_201701242220.log" />
+        <option value="$PROJECT_DIR$/log/limit_999_weight_3_kpp_201701242233.log" />
+        <option value="$PROJECT_DIR$/testKmeans.py" />
       </list>
     </option>
   </component>
@@ -208,7 +153,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -223,7 +168,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/log/centers_count_is_7" />
       <recent name="$PROJECT_DIR$/log" />
     </key>
   </component>
@@ -469,11 +416,11 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3423352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -484,25 +431,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34392375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
@@ -515,183 +443,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/348993582/numpy/core/umath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52275">
-          <caret line="3485" column="6" lean-forward="true" selection-start-line="3485" selection-start-column="6" selection-end-line="3485" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="116" column="26" lean-forward="true" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-            <element signature="e#218#421#0" expanded="false" />
-            <element signature="e#488#843#0" expanded="false" />
-            <element signature="e#3306#3962#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24180">
-          <caret line="1620" column="4" lean-forward="false" selection-start-line="1620" selection-start-column="4" selection-end-line="1620" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/linalg/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/linalg/linalg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28755">
-          <caret line="1917" column="4" lean-forward="false" selection-start-line="1917" selection-start-column="4" selection-end-line="1917" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KmeansPP.py" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/348993582/kmc2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="167" column="4" lean-forward="false" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KMeans.bak.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/348993582/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="104" column="39" lean-forward="false" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/linalg/linalg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28755">
-          <caret line="1917" column="4" lean-forward="false" selection-start-line="1917" selection-start-column="4" selection-end-line="1917" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/linalg/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/348993582/numpy/core/umath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52275">
-          <caret line="3485" column="6" lean-forward="false" selection-start-line="3485" selection-start-column="6" selection-end-line="3485" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24180">
-          <caret line="1620" column="4" lean-forward="false" selection-start-line="1620" selection-start-column="4" selection-end-line="1620" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="148" column="40" lean-forward="false" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231430.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="3811" column="49" lean-forward="true" selection-start-line="3811" selection-start-column="49" selection-end-line="3811" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231347.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="241" column="0" lean-forward="true" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231440.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="4076" column="0" lean-forward="true" selection-start-line="4075" selection-start-column="0" selection-end-line="4076" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231445.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="3668" column="48" lean-forward="true" selection-start-line="3668" selection-start-column="48" selection-end-line="3668" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231457.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="953" column="39" lean-forward="true" selection-start-line="953" selection-start-column="39" selection-end-line="953" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231519.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="1243" column="0" lean-forward="true" selection-start-line="1243" selection-start-column="0" selection-end-line="1243" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701231543.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="586" column="28" lean-forward="false" selection-start-line="586" selection-start-column="28" selection-end-line="586" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/sklearn/metrics/pairwise.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-141">
@@ -699,80 +450,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_afkmc2_201701231830.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/kmeans_test_afkmc2_201701231830.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="626" column="30" lean-forward="true" selection-start-line="626" selection-start-column="30" selection-end-line="626" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_afkmc2_with_weight_201701232002.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/kmeans_test_afkmc2_with_weight_201701232002.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="396" column="15" lean-forward="true" selection-start-line="396" selection-start-column="15" selection-end-line="396" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_201701222156.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/kmeans_test_201701222156.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="984" column="22" lean-forward="true" selection-start-line="984" selection-start-column="22" selection-end-line="984" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/kmeans_test_201701222141.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/kmeans_test_201701222141.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="961" column="47" lean-forward="true" selection-start-line="961" selection-start-column="47" selection-end-line="961" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/seed_error_201701232032.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/seed_error_201701232032.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/error_during_201701232117.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/error_during_201701232117.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_kpp_201701232229.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_kpp_201701232229.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_kpp_201701232320.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_kpp_201701232320.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="73" column="73" lean-forward="false" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701232334.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701232334.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701240017.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701240017.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/poker-hand-training-true.txt">
+    <entry file="file://$PROJECT_DIR$/data/poker-hand-training-true.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +533,7 @@
         <state relative-caret-position="720">
           <caret line="67" column="13" lean-forward="false" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
           <folding>
-            <element signature="e#24#45#0" expanded="true" />
+            <element signature="e#24#45#0" expanded="false" />
             <element signature="e#218#421#0" expanded="false" />
             <element signature="e#488#843#0" expanded="false" />
             <element signature="e#3306#3962#0" expanded="false" />
@@ -789,7 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701240115.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701240115.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
@@ -797,7 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701240132.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701240132.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
@@ -813,7 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701240202.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701240202.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
@@ -821,7 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241154.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241154.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
@@ -829,7 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241207.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241207.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
@@ -837,7 +589,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241139.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241139.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="68" column="31" lean-forward="false" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
@@ -845,7 +597,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241126.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241126.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
@@ -853,23 +605,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testKmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-            <element signature="e#235#625#0" expanded="false" />
-            <element signature="e#2153#2584#0" expanded="false" />
-            <element signature="e#2623#3053#0" expanded="false" />
-            <element signature="e#3090#3384#0" expanded="false" />
-            <element signature="e#4375#4672#0" expanded="false" />
-            <element signature="e#4713#4843#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241257.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241257.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
@@ -877,7 +613,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241310.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241310.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
@@ -885,7 +621,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241335.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241335.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
@@ -893,11 +629,227 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/times_100_weight_3_kpp_201701241349.log">
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241349.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="358">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="73" selection-end-column="85" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241405.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241418.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241432.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241445.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241457.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241510.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_kpp_201701241630.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_kpp_201701242000.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701242055.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701242027.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701242014.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241929.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241916.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241804.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241748.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241717.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241701.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241615.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/times_100_weight_3_kpp_201701241523.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/limit_999_weight_3_kpp_201701242211.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/limit_999_weight_3_kpp_201701242220.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/limit_999_weight_3_kpp_201701242233.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/limit_999_weight_3_kpp_201701242159.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/limit_999_weight_3_kpp_201701242149.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/centers_count_is_7/limit_999_weight_3_kpp_201701242128.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testKmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+          <folding>
+            <element signature="e#235#625#0" expanded="false" />
+            <element signature="e#2153#2584#0" expanded="false" />
+            <element signature="e#2623#3053#0" expanded="false" />
+            <element signature="e#3090#3384#0" expanded="false" />
+            <element signature="e#3463#4337#0" expanded="false" />
+            <element signature="e#4375#4672#0" expanded="false" />
+            <element signature="e#4713#4843#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
